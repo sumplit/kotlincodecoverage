@@ -10,13 +10,3 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-//sonarqube {
-//    properties {
-//        property "sonar.sources", "src/main/java"
-//        property "sonar.projectKey", "codecoverage-test"
-//        property "sonar.host.url", "http://localhost:9000"
-//        property "sonar.host.password", "admin123"
-//        property "sonar.host.login", "275b8cbfa0556c1e80cd83ea27bfe91c7fe4dec5"
-//    }
-//}
